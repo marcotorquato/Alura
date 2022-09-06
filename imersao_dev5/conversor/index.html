@@ -15,7 +15,6 @@
 
     <header>
         <img src="img/logo_alura.png" alt="logo alura" class="logo">
-        <h1 class=".main-title">Currency Converter</h1>
     </header>
     
     <section>
@@ -26,13 +25,23 @@
 
             <img src="img/imersao_alura.png" alt="imersao dev">
 
-            <p class="main-description">ENTER A VALUE </p>
+            
             
         </div>
         <div class="input">
-            <input type="number" value="insert a value" class="value">
+            <input type="number" value="insert a value" id="value" placeholder="ENTER A VALUE">
+        </div>
+
+        <div class="btn">
+            <button type="submit" class="main-button"> Converter</button>
+
+            <p class="main-description" id="valueConvert"></p>
         </div>
     </section>
+
+    <footer class="footer">
+        <p class="main-description -second">Marco Torquato </p>
+    </footer>
 
 </body>
 </html>

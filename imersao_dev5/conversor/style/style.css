@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(45, 44, 44);
 }
 
 header {
@@ -28,9 +28,38 @@ header {
     color: #fff;
 }
 
+.footer{
+    padding-top: 150px;
+}
+
 .input{
     
     margin: 20px;
     text-align: center;
+}
+#value{
+    border-radius: 10px;
+    height: 25px;
+    width: 240px;
+}
+
+#value::placeholder {
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+.main-button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px #0000008c;
+    transition: transform 200ms cubic-bezier(0.88, -0.7, 0, 2.2);
+}
+
+.main-button:hover{
+    transform: scale(1.08);
+    cursor:pointer;
 }
 
