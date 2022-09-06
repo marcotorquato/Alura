@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+header {
+    text-align: right;
+}
+
+.logo{
+    padding: 40px 40px 0 0;
+}
+
+.home{
+    text-align: center;
+    color: #fff
+}
+
+.main-title{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.main-description {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.input{
+    
+    margin: 20px;
+    text-align: center;
+}
+
