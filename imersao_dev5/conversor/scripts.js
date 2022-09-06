@@ -1,5 +1,7 @@
 function Converter() {
-    let ElementValue = document.querySelector("#value")
+    let elementValue = document.querySelector("#value")
+    let value = elementValue.value
+    let valueConverter = parseFloat (value)
 
-    console.log("voce clicou")
+    console.log(value)
 }
