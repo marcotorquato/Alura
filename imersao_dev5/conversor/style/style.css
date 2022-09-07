@@ -38,6 +38,10 @@ header {
     text-decoration: none;
 }
 
+.main-description.-second {
+    margin: 20px;
+}
+
 .main-description.-second:hover{
     color: #277AE3;
 }

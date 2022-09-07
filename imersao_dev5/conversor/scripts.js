@@ -1,7 +1,16 @@
 function Converter() {
     let elementValue = document.querySelector("#value")
     let value = elementValue.value
-    let valueConverter = parseFloat (value)
+    let valueConverterNum = parseFloat (value)
 
-    console.log(value)
+    let valueReal = valueConverterNum * 5
+
+
+
+    console.log(valueReal)
+
+    let elementConverted = document.querySelector('#valueConvert')
+    let valueConverter = `The value convert is $${valueReal}`;
+
+    elementConverted.innerHTML = valueConverter
 }
