@@ -38,8 +38,8 @@ header {
     text-decoration: none;
 }
 
-.main-description.-second {
-    margin: 20px;
+.main-description.-third {
+    margin: 30px;
 }
 
 .main-description.-second:hover{
@@ -47,7 +47,7 @@ header {
 }
 
 .footer{
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center;
 }
 
