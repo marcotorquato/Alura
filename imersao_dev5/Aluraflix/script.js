@@ -11,9 +11,12 @@ function addMovie() {
     let favoriteMovie = document.getElementById('movie').value
     let elementMovie = "<img src=" + favoriteMovie  + " >"
     let listMovie = document.getElementById('listMovie');
-    listMovie.innerHTML = (elementMovie)
 
-    
+    listMovie.innerHTML = listMovie.innerHTML + elementMovie
+
+    document.getElementById('movie').value = ''
+
+
 
 }
 
