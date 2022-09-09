@@ -5,12 +5,25 @@ let listMovie = ["https://upload.wikimedia.org/wikipedia/en/9/9e/Yesterday_%2820
 "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810"];
 
 
-for (let indice = 0; indice < listMovie.length; indice++) {
-    document.write("<img src=" + listMovie[indice]  + " >");
+
+
+function addMovie() {
+    let favoriteMovie = document.getElementById('movie').value
+    let elementMovie = "<img src=" + favoriteMovie  + " >"
+    let listMovie = document.getElementById('listMovie');
+    listMovie.innerHTML = (elementMovie)
+
+    
+
 }
 
 
 /*
+
+for (let indice = 0; indice < listMovie.length; indice++) {
+    document.write("<img src=" + listMovie[indice]  + " >");
+}
+
 let listMovie = ["Yesterday" , "A chegada" , "Escola de Rock"];
 
 
