@@ -8,16 +8,22 @@ let listMovie = ["https://upload.wikimedia.org/wikipedia/en/9/9e/Yesterday_%2820
 
 
 function addMovie() {
-    let favoriteMovie = document.getElementById('movie').value
-    let elementMovie = "<img src=" + favoriteMovie  + " >"
-    let listMovie = document.getElementById('listMovie');
-
-    listMovie.innerHTML = listMovie.innerHTML + elementMovie
+    let favoriteMovie = document.getElementById('movie').value;
+    if (favoriteMovie.endsWith(".jpg")){
+        listMovieScreen(favoriteMovie)
+       
+    } else {
+    console.error("Invalid Adress Movie");
+    }
 
     document.getElementById('movie').value = ''
+}
 
+function listMovieScreen (movie) {
+    let elementMovie = "<img src=" + movie  + " >"
+    let listMovie = document.getElementById('listMovie');
 
-
+    listMovie.innerHTML = listMovie.innerHTML + elementMovie;
 }
 
 
