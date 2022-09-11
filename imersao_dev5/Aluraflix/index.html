@@ -5,28 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 
 
     <title>AluraFlix</title>
 </head>
 <body>
-    <div class="container">
-      <h1 class="page-title"> Aluraflix </h1>
 
-      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  <header class="header">
+    <img src="/imersao_dev5/Aluraflix/img/logo_af.png" alt="">
+      
 
-      <p class="page-subtitle">What's your favorite movie?</p>
+  </header>
 
-      <div class="form-wrapper">
-        <input type="text" id="movie" name="movie" placeholder="Enter image address">
-        <button onClick="addMovie()">Add Movie</button>
+    <section class="section">
+      <div class="container">
+        <h1 class="page-title"> Aluraflix </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        <p class="page-subtitle">What's your favorite movie?</p>
+        <div class="form-wrapper">
+          <input type="text" id="movie" name="movie" placeholder="Enter image address">
+          <button onClick="addMovie()">Add Movie</button>
+        </div>
       </div>
-    </div>
-    <div id="listMovie"></div>
-    <a href="https://alura.com.br/" target="_blank">
-      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-    </a>
-    
+      <div id="listMovie"></div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      
+    </section>
     <script src="script.js"></script> 
     <footer class="footer">
         
